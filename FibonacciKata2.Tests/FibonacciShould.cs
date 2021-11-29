@@ -45,5 +45,13 @@ namespace FibonacciKata2.Tests
             Assert.Equal(3, actual);
         }
 
+        [Fact]
+        public void ReturnFiveIfTheInputIsFive()
+        {
+            var actual = Fibonacci.Calculate(5);
+            
+            Assert.Equal(5, actual);
+        }
+
     }
 }
