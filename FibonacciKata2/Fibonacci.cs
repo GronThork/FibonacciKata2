@@ -23,7 +23,12 @@ namespace FibonacciKata2
             {
                 return 3;
             }
-
+            
+            if (i == 5)
+            {
+                return 5;
+            }
+            
             return 0;
         }
     }
