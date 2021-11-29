@@ -6,8 +6,11 @@ namespace FibonacciKata2.Tests
     public class FibonacciShould
     {
         [Fact]
-        public void Test1()
+        public void ReturnZeroIfTheInputIsZero()
         {
+            int actual = Fibonacci.Calculate(0);
+            
+            Assert.Equal(0, actual);
         }
     }
 }

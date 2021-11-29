@@ -19,4 +19,8 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FibonacciKata2\FibonacciKata2.csproj" />
+    </ItemGroup>
+
 </Project>
