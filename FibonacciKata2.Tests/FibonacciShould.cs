@@ -8,7 +8,7 @@ namespace FibonacciKata2.Tests
         [Fact]
         public void ReturnZeroIfTheInputIsZero()
         {
-            int actual = Fibonacci.Calculate(0);
+            var actual = Fibonacci.Calculate(0);
             
             Assert.Equal(0, actual);
         }
