@@ -21,5 +21,13 @@ namespace FibonacciKata2.Tests
             Assert.Equal(1, actual);
         }
 
+        [Fact]
+        public void ReturnOneIfTheInputIsTwo()
+        {
+            var actual = Fibonacci.Calculate(2);
+            
+            Assert.Equal(1, actual);
+        }
+
     }
 }
