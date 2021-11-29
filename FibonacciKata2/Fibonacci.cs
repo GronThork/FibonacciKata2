@@ -14,6 +14,11 @@ namespace FibonacciKata2
                 return 1;
             }
 
+            if (i == 3)
+            {
+                return 2;
+            }
+            
             return 0;
         }
     }
